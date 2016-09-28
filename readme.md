@@ -5,7 +5,7 @@ Copy to clipboard React component using [clipboard.js](https://npm.im/clipboard)
 ## Installation
 ```sh
 npm install --save react-clipboard-component
-
+```
 
 ## Usage
 ```js
@@ -21,3 +21,4 @@ export default class App extends Component {
     )
   }
 }
+```
