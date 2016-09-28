@@ -1,0 +1,27 @@
+{
+  "name": "react-clipboard",
+  "version": "1.0.0",
+  "description": "React Clipboard Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehcosta/react-clipboard.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Leandro Costa <leandrohernandes95@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lehcosta/react-clipboard/issues"
+  },
+  "homepage": "https://github.com/lehcosta/react-clipboard#readme",
+  "dependencies": {
+    "clipboard": "^1.5.12",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
