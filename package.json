@@ -1,10 +1,11 @@
 {
   "name": "react-clipboard-component",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "React Clipboard Component",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "rimraf lib/* && babel src -d lib",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,14 @@
     "clipboard": "^1.5.12",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-runtime": "^6.11.6",
+    "rimraf": "^2.5.4"
   }
 }

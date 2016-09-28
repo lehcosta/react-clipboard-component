@@ -22,3 +22,18 @@ export default class App extends Component {
   }
 }
 ```
+
+## Options
+
+#### `text`: React.PropTypes.string.isRequired
+
+Text to be copied to clipboard
+
+### `onSuccess`: React.PropTypes.func
+
+### `onError`: React.PropTypes.func
+
+
+## License
+
+MIT
