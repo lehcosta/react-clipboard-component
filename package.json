@@ -1,6 +1,6 @@
 {
   "name": "react-clipboard-component",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "React Clipboard Component",
   "main": "index.js",
   "scripts": {

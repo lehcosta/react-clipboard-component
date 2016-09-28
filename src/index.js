@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react'
 import ReactDOM from 'react-dom'
 import Clipboard from 'clipboard'
 
-export default class ReactClipboard extends Component {
+class ReactClipboardComponent extends Component {
 
   constructor (props) {
     super(props)
@@ -37,8 +37,11 @@ export default class ReactClipboard extends Component {
   }
 }
 
-ReactClipboard.propTypes = {
+ReactClipboardComponent.propTypes = {
   ['clipboard-text']: PropTypes.string.isRequired,
   'onError': PropTypes.func,
   'onSuccess': PropTypes.func
 }
+
+
+module.exports = ReactClipboardComponent
