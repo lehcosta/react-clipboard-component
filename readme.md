@@ -1,7 +1,7 @@
-# react-clipboard
+# react-clipboard-component
 
 Copy to clipboard React component using [clipboard.js](https://npm.im/clipboard)
 
 ## Instalation
 ```sh
-npm install --save react-clipboard
+npm install --save react-clipboard-component
