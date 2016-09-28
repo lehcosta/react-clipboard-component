@@ -29,9 +29,9 @@ export default class App extends Component {
 
 Text to be copied to clipboard
 
-### `onSuccess`: React.PropTypes.func
+#### `onSuccess`: React.PropTypes.func
 
-### `onError`: React.PropTypes.func
+#### `onError`: React.PropTypes.func
 
 
 ## License
